@@ -51,11 +51,11 @@
 
         Symbols {
             bindings = <
-&trans  &trans                &trans          &trans            &trans         &trans       &trans                                      &trans  &trans     &trans            &trans             &trans           &trans                 &trans
-&trans  &kp EXCLAMATION       &kp AT_SIGN     &kp HASH          &kp DOLLAR     &kp PERCENT  &trans                                      &trans  &kp CARET  &kp AMPERSAND     &kp ASTERISK       &kp LPAR         &kp RPAR               &trans
-&trans  &kp GRAVE             &kp EQUAL       &trans            &trans         &trans       &trans  &trans  &trans      &trans  &trans  &trans  &trans     &trans            &trans             &kp MINUS        &kp NON_US_BACKSLASH   &trans
-&trans  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LESS_THAN  &trans                       &trans      &trans                  &trans     &kp GREATER_THAN  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &trans
-&trans  &trans                &trans          &trans            &trans                      &trans  &trans  &trans      &trans  &trans  &trans             &trans            &trans             &trans           &trans                 &trans
+&trans  &trans           &trans       &trans     &trans          &trans       &trans                                      &trans  &trans     &trans            &trans             &trans             &trans            &trans
+&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH   &kp DOLLAR      &kp PERCENT  &trans                                      &trans  &kp CARET  &kp AMPERSAND     &kp ASTERISK       &kp LPAR           &kp RPAR          &trans
+&trans  &kp TILDE        &kp GRAVE    &kp MINUS  &kp UNDERSCORE  &trans       &trans  &trans  &trans      &trans  &trans  &trans  &trans     &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LESS_THAN      &kp GREATER_THAN  &trans
+&trans  &trans           &trans       &kp PLUS   &kp EQUAL       &trans                       &trans      &trans                  &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DOUBLE_QUOTES  &kp SQT           &trans
+&trans  &trans           &trans       &trans     &trans                       &trans  &trans  &trans      &trans  &trans  &trans             &trans            &trans             &trans             &trans            &trans
             >;
         };
 
