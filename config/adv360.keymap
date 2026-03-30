@@ -14,10 +14,13 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
-            tapping-term-ms = <275>;
+            tapping-term-ms = <200>;
             quick_tap_ms = <175>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
+
+            quick-tap-ms = <180>;
+            require-prior-idle-ms = <120>;
         };
     };
 
@@ -58,16 +61,16 @@
 
         navigation {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                              &trans  &trans          &trans    &trans        &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &studio_unlock                                      &trans  &trans          &trans    &trans        &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                          &trans      &trans                  &trans          &trans    &trans        &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans          &trans  &trans      &trans  &trans  &trans                  &trans    &trans        &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans          &trans    &trans        &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans          &trans    &trans        &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans          &trans    &trans        &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                  &trans    &trans        &trans     &trans  &trans
             >;
         };
 
         System {
-            display-name = "Mod";
+            display-name = "System";
             bindings = <
 &none           &none         &none         &none         &none         &none           &none                                            &trans           &none           &none        &none   &none   &none    &none
 &none           &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &none                                            &none            &kp F6          &kp F7       &kp F8  &kp F9  &kp F10  &none
