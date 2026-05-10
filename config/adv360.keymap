@@ -31,6 +31,11 @@
             bindings = <&kp LS(LG(NUMBER_4))>;
             key-positions = <19 22>;
         };
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <44 29>;
+        };
     };
 
     keymap {
