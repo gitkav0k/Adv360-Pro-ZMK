@@ -27,9 +27,9 @@
     combos {
         compatible = "zmk,combos";
 
-        Escape {
-            bindings = <&kp ESCAPE>;
-            key-positions = <29 44>;
+        screen_grab_section {
+            bindings = <&kp LS(LG(NUMBER_4))>;
+            key-positions = <19 22>;
         };
     };
 
