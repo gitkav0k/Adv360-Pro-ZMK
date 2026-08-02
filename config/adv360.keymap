@@ -35,6 +35,20 @@
             bindings = <&kp ESC>;
             key-positions = <44 29>;
         };
+
+        screen_recording {
+            bindings = <&screen_recording>;
+            key-positions = <33 40>;
+        };
+    };
+
+    macros {
+        screen_recording: screen_recording {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LG(N5))>;
+            label = "SCREEN_RECORDING";
+        };
     };
 
     keymap {
